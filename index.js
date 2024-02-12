@@ -10,7 +10,7 @@ $(".registrar").click(function(){
 $(".consultar").click(function(){
     $(".visor iframe").fadeOut();
     $(".visor iframe").fadeIn();
-    $(".visor iframe").attr("src", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTeVTIBPMxCzDD4H_DS9OI3YLvTrce9wHlnX_vJaSudr6DioWbsu-odSIlwFQlb-vLgSxNuU6QH6dzr/pubhtml");
+    $(".visor iframe").attr("src", "https://docs.google.com/spreadsheets/d/1P7h0acmu_6IL6sa5wJN4FCZqQrTqZYd6w2pSszHUago/edit?usp=sharing");
     $(".consultar").css({"font-weight": "bold", "text-decoration":"underline"});
     $(".registrar").css({"font-weight": "normal", "text-decoration":"none"});
 });

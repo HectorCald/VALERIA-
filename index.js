@@ -14,4 +14,7 @@ $(".consultar").click(function(){
     $(".consultar").css({"font-weight": "bold", "text-decoration":"underline"});
     $(".registrar").css({"font-weight": "normal", "text-decoration":"none"});
 });
+$("h1").click(function(){
+    location.reload();
+})
 
